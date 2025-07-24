@@ -1,0 +1,185 @@
+<html lang="en" class="scroll-smooth" style="scroll-behavior:smooth">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Deep Blue Exploration</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#001522] text-white relative overflow-x-hidden"> 
+<header class="relative w-full h-[720px]">
+  <img src="sub.png" class="absolute inset-0 w-full h-full object-cover"/>
+  <div class="relative z-10 max-w-[1200px] h-full mx-auto px-6 flex flex-col justify-between">
+   <div class="flex justify-between items-center px-6 sm:px-10 md:px-16 lg:px-24 py-4 max-w-7xl relative z-40">
+    <div class="flex items-center space-x-2">
+     <a href="index.html">
+      <p class="text-white text-xl tracking-tight lowercase" id="hydra">
+       hydra
+      </p>
+     </a>
+     <img height="40" src="logo.png" width="40"/>
+    </div>
+    <button aria-label="Menu" class="space-y-1.5 focus:outline-none relative z-50" id="menu-toggle" aria-expanded="false" aria-controls="menu-list">
+     <span class="block w-6 h-0.5 bg-white rounded"></span>
+     <span class="block w-6 h-0.5 bg-white rounded"></span>
+     <span class="block w-6 h-0.5 bg-white rounded"></span>
+    </button>
+    <nav id="menu-list" aria-hidden="true" role="menu" aria-label="Main menu" tabindex="-1" style="font-family: 'neos';">
+     <a href="about.html" role="menuitem" tabindex="-1">About Hydra</a>
+     <a href="synap.html" role="menuitem" tabindex="-1">What is Synaptium?</a>
+     <a href="research.html" role="menuitem" tabindex="-1">Research</a>
+     <a href="resources.html" role="menuitem" tabindex="-1">Extracted Resources</a>
+     <a href="shop.html" role="menuitem" tabindex="-1">Shop</a>
+     <a href="roadmap.html" role="menuitem" tabindex="-1">Roadmap</a>
+     <a href="sustain.html" role="menuitem" tabindex="-1">Sustainability</a>
+    </nav>
+   </div>
+   <!-- Text overlay container -->
+   <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-12 items-center flex-grow" style="margin-right: -150px;">
+    <div class="md:col-span-5 flex flex-col justify-center space-y-6 max-w-[320px] md:max-w-[380px]" style="margin-top: 200px;">
+     <h1 class="text-4xl md:text-5xl -ml-5 font-extrabold leading-tight">
+      Deep Blue<br/>
+      <span class="text-[#1f6f8b]">Exploration.</span>
+     </h1>
+    </div>
+    <div class="md:col-span-7 flex flex-col space-y-6 max-w-[450px]">
+     <p class="text-sm md:text-base text-right leading-relaxed" style="font-family: 'neos'; margin-bottom: -100px;">
+      Only 5% of the ocean has been explored. That’s what drives us. Hydra was built to go <span class="font-semibold">deeper</span> into pressure zones that haven’t seen light in millions of years. We don’t just scan the seafloor; we send machines where no one else can.
+     </p>
+     <p class="text-sm md:text-base text-right leading-relaxed" style="font-family: 'neos'; margin-top: 500px;">
+      This pursuit has already revealed <a href="#" class="text-[#1f6f8b] hover:underline">new forms of aqueous life,</a> species evolved in total darkness, beyond the reach of surface science.
+     </p>
+    </div>
+   </div>
+  </div>
+</header>
+<main class="max-w-[1200px] mx-auto px-6">
+  <section class="mt-16 md:mt-24 text-center">
+    <h2 class="text-3xl md:text-4xl font-extrabold max-w-[600px] mx-auto">
+      Recent <span class="text-[#1f6f8b]">Deep-Sea</span> Missions
+    </h2>
+  </section>
+  <section class="mt-12 md:mt-20 max-w-[900px] mx-auto relative">
+    <img src="textchart.png" alt="">
+  </section>
+  <br><br><br><br>
+  <footer style="font-family: 'neos';" class="max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-24 pb-12 text-[10px] text-gray-400">
+   <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-8 sm:gap-0">
+    <div class="flex flex-col text-[11px] max-w-xs">
+     <p>
+      Need help? Contact us.
+     </p>
+     <a class="text-gray-400 hover:text-white break-words" href="mailto:helloiamunderthewater@hydra.com">
+      helloiamunderthewater@hydra.com
+     </a>
+    </div>
+    <div class="grid grid-cols-3 gap-2 text-gray-400 text-[10px] justify-center">
+     <a href="#" class="hover:text-white">Customer help</a>
+     <a href="about.html" class="hover:text-white">About Hydra</a>
+     <a href="resources.html" class="hover:text-white">Resources</a>
+     <a href="#" class="hover:text-white">Shipping info</a>
+     <a href="synap.html" class="hover:text-white">Synaptium</a>
+     <a href="shop.html" class="hover:text-white">Shop</a>
+     <a href="#" class="hover:text-white">Track your order</a>
+     <a href="research.html" class="hover:text-white">Research</a>
+     <a href="roadmap.html" class="hover:text-white">Roadmap</a>
+    </div>
+    <div class="flex items-center space-x-6">
+     <form class="flex flex-col text-[10px]">
+      <label class="mb-1" for="email">
+       Subscribe to our newsletter.
+      </label>
+      <input class="bg-transparent border-b border-gray-600 text-white placeholder-gray-600 focus:outline-none focus:border-[#2ea1d6] py-1 w-48" id="email" placeholder="Email" type="email"/>
+     </form>
+     <img class="w-16 h-16" height="64" src="white-logo.png" width="64" alt="White Hydra logo"/>
+    </div>
+   </div>
+   <div class="border-t border-gray-700 mt-8 pt-4 max-w-7xl text-[8px] text-gray-600 flex flex-wrap gap-2">
+    <p>
+     Privacy Policy
+    </p>
+    <p>
+     |
+    </p>
+    <p>
+     Terms of Use
+    </p>
+    <p>
+     |
+    </p>
+    <p>
+     Sales Policy
+    </p>
+    <p>
+     |
+    </p>
+    <p>
+     Legal
+    </p>
+   </div>
+   <p class="mt-2 text-[8px] text-gray-600">
+    Copyright &copy; 2025 Hydra Ltd. · All rights reserved.
+   </p>
+  </footer>
+
+<script>
+const menuToggle = document.getElementById('menu-toggle');
+const glassMenu = document.getElementById('menu-list');
+const menuItems = glassMenu.querySelectorAll('a');
+
+function openMenu() {
+  glassMenu.classList.add('open');
+  glassMenu.setAttribute('aria-hidden', 'false');
+  menuToggle.setAttribute('aria-expanded', 'true');
+  glassMenu.focus();
+
+  menuItems.forEach((item, index) => {
+    item.style.animation = `dropdownReveal 0.3s ease forwards`;
+    item.style.animationDelay = `${index * 0.1 + 0.1}s`;
+  });
+}
+
+function closeMenu() {
+  glassMenu.classList.remove('open');
+  glassMenu.setAttribute('aria-hidden', 'true');
+  menuToggle.setAttribute('aria-expanded', 'false');
+
+  menuItems.forEach(item => {
+    item.style.animation = '';
+    item.style.opacity = '0';
+    item.style.transform = 'translateY(-10px)';
+  });
+  menuToggle.focus();
+}
+
+menuToggle.addEventListener('click', () => {
+  if (glassMenu.classList.contains('open')) {
+    closeMenu();
+  } else {
+    openMenu();
+  }
+});
+
+document.addEventListener('click', (e) => {
+  if (!glassMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+    if (glassMenu.classList.contains('open')) {
+      closeMenu();
+    }
+  }
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && glassMenu.classList.contains('open')) {
+    closeMenu();
+  }
+});
+
+menuItems.forEach(item => {
+  item.style.opacity = '0';
+  item.style.transform = 'translateY(-10px)';
+});
+</script>
+</body>
+</html>
