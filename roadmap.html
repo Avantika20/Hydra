@@ -1,0 +1,327 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Hydra Roadmap</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body class="bg-black text-white relative">
+<header class="relative mb-12">
+   <div class="flex justify-between items-center px-6 sm:px-10 md:px-16 lg:px-24 py-4 max-w-7xl mx-auto relative z-40">
+    <div class="flex items-center space-x-2">
+     <p class="text-white text-xl tracking-tight lowercase" id="hydra">
+      hydra
+     </p>
+     <img height="40" src="logo.png" width="40"/>
+    </div>
+    <button aria-label="Menu" class="space-y-1.5 focus:outline-none relative z-50" id="menu-toggle" aria-expanded="false" aria-controls="menu-list">
+     <span class="block w-6 h-0.5 bg-white rounded"></span>
+     <span class="block w-6 h-0.5 bg-white rounded"></span>
+     <span class="block w-6 h-0.5 bg-white rounded"></span>
+    </button>
+
+    <nav id="menu-list" aria-hidden="true" role="menu" aria-label="Main menu" tabindex="-1" style="font-family: 'neos';">
+     <a href="about.html" role="menuitem" tabindex="-1">About Hydra</a>
+        <a href="#" role="menuitem" tabindex="-1">What is Synaptium?</a>
+        <a href="#" role="menuitem" tabindex="-1">Research</a>
+        <a href="resources.html" role="menuitem" tabindex="-1">Extracted Resources</a>
+        <a href="shop.html" role="menuitem" tabindex="-1">Shop</a>
+        <a href="roadmap.html" role="menuitem" tabindex="-1">Roadmap</a>
+        <a href="#" role="menuitem" tabindex="-1">Sustainability</a>
+    </nav>
+   </div>
+    </header>
+
+    <main class="flex-grow">
+      <div class="relative max-w-[900px] mx-auto">
+        <img
+          class="w-full max-h-[600px] object-cover"
+          height="600"
+          src="cave.png"
+          width="600"
+          alt="Cave interior with light filtering in"
+        />
+
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center pointer-events-none"
+          style="margin-top: 100px;"
+        >
+          <h1
+            class="text-center text-white text-3xl sm:text-5xl md:text-5xl max-w-xs sm:max-w-md z-10"
+            style="line-height: 1.1; font-family: 'neosBold'"
+          >
+            The Hydra
+          </h1>
+
+          <svg
+            class="w-full max-h-[1100px] object-contain -mt-6 sm:-mt-10 md:-mt-16"
+            viewBox="0 0 1050 1641"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            role="img"
+            aria-label="Decorative stylized hydra shape in blue gradient"
+          >
+            <path
+              d="M345.821 144.79C345.821 154.282 341.383 161.621 333.165 165.137L345.338 185H329.518L318.971 167.51H310.05V185H294.317V121.982H320.509C328.551 121.982 334.791 124.092 339.229 128.267C343.624 132.441 345.821 137.979 345.821 144.79ZM310.006 134.463V154.985H318.839C322.135 154.985 324.859 154.019 326.969 152.041C329.034 150.107 330.089 147.69 330.089 144.79C330.133 141.89 329.078 139.429 327.013 137.451C324.903 135.474 322.179 134.463 318.839 134.463H310.006ZM377.726 185.747C370.387 185.747 363.663 183.33 358.697 179.067C353.731 174.805 350.567 168.037 350.567 160.259C350.567 152.48 353.731 145.669 358.697 141.406C363.663 137.188 370.387 134.727 377.726 134.727C384.977 134.727 391.744 137.188 396.71 141.406C401.676 145.669 404.84 152.48 404.84 160.259C404.84 168.037 401.676 174.805 396.71 179.067C391.744 183.33 384.977 185.747 377.726 185.747ZM368.937 169.663C371.31 172.08 374.254 173.311 377.726 173.311C381.197 173.311 384.142 172.08 386.559 169.663C388.932 167.246 390.118 164.082 390.118 160.259C390.118 156.436 388.932 153.271 386.559 150.854C384.142 148.438 381.197 147.207 377.726 147.207C374.254 147.207 371.31 148.438 368.937 150.854C366.52 153.271 365.333 156.436 365.333 160.259C365.333 164.082 366.52 167.246 368.937 169.663ZM434.02 134.727C441.754 134.727 447.818 137.451 450.499 142.065L451.114 135.518H465.221V185H451.114L450.499 178.408C447.906 183.286 442.413 185.747 434.02 185.747C421.319 186.011 410.772 175.112 410.948 160.259C410.772 145.405 421.319 134.463 434.02 134.727ZM429.317 169.619C431.69 172.036 434.635 173.267 438.106 173.267C441.578 173.267 444.522 172.036 446.939 169.619C449.312 167.202 450.499 164.082 450.499 160.259C450.499 156.436 449.312 153.271 446.939 150.854C444.522 148.438 441.578 147.251 438.106 147.251C434.635 147.251 431.69 148.438 429.317 150.854C426.944 153.271 425.758 156.436 425.758 160.259C425.758 164.082 426.944 167.202 429.317 169.619ZM495.191 134.727C502.926 134.727 508.946 137.451 511.583 142.065V117.5H526.349V185H512.286L511.583 178.408C508.99 183.286 503.146 185.747 495.191 185.747C482.491 186.011 471.944 175.112 472.12 160.259C471.944 145.405 482.491 134.463 495.191 134.727ZM499.234 173.267C502.706 173.267 505.65 172.036 508.023 169.619C510.396 167.202 511.583 164.082 511.583 160.259C511.583 156.436 510.396 153.271 508.023 150.854C505.65 148.438 502.706 147.251 499.234 147.251C495.763 147.251 492.818 148.438 490.445 150.854C488.072 153.271 486.886 156.436 486.886 160.259C486.886 164.082 488.072 167.202 490.489 169.619C492.862 172.036 495.763 173.267 499.234 173.267ZM599.605 134.727C606.593 134.727 611.339 137.012 614.151 141.582C616.92 146.152 618.019 151.953 618.019 160.259V185H603.253V160.259C603.253 151.602 600.221 147.251 594.2 147.251C587.564 147.251 583.741 152.217 583.741 160.259V185H568.976V160.259C568.976 151.777 566.207 147.251 560.011 147.251C553.375 147.251 549.552 152.217 549.552 160.259V185H534.786V135.518H548.893L549.552 142.065C552.101 137.188 557.374 134.727 565.416 134.727C573.546 134.727 578.951 138.11 581.544 144.878C584.928 138.11 590.948 134.727 599.605 134.727ZM647.682 134.727C655.416 134.727 661.48 137.451 664.161 142.065L664.776 135.518H678.883V185H664.776L664.161 178.408C661.568 183.286 656.075 185.747 647.682 185.747C634.981 186.011 624.435 175.112 624.61 160.259C624.435 145.405 634.981 134.463 647.682 134.727ZM642.979 169.619C645.353 172.036 648.297 173.267 651.769 173.267C655.24 173.267 658.185 172.036 660.602 169.619C662.975 167.202 664.161 164.082 664.161 160.259C664.161 156.436 662.975 153.271 660.602 150.854C658.185 148.438 655.24 147.251 651.769 147.251C648.297 147.251 645.353 148.438 642.979 150.854C640.606 153.271 639.42 156.436 639.42 160.259C639.42 164.082 640.606 167.202 642.979 169.619ZM719.356 185.747C711.622 185.747 705.558 183.022 702.921 178.408V203.018H688.155V135.518H702.262L702.921 142.065C705.514 137.188 711.402 134.727 719.356 134.727C732.057 134.463 742.604 145.405 742.384 160.259C742.604 175.112 732.057 186.011 719.356 185.747ZM715.313 147.251C711.842 147.251 708.897 148.438 706.524 150.854C704.107 153.271 702.921 156.436 702.921 160.259C702.921 164.082 704.107 167.202 706.524 169.619C708.897 172.036 711.842 173.267 715.313 173.267C718.785 173.267 721.686 172.036 724.059 169.619C726.432 167.202 727.618 164.082 727.618 160.259C727.618 156.436 726.432 153.271 724.059 150.854C721.686 148.438 718.785 147.251 715.313 147.251Z"
+              fill="url(#paint0_linear_296_2)"
+            />
+            <path
+              d="M597.541 653.5C630.541 622.5 665.881 595 679.041 501C693.041 401 687.541 210.03 687.541 201L702.541 200C702.541 200 703.065 275.5 708.712 343C716.243 433.019 769.093 527.5 780.541 571C791.988 614.5 785.469 641 769.041 668.5C752.612 696 737.041 711.5 701.041 743.5C666.541 767 674.87 749.5 657.541 774.5L627.541 745.5L493.041 734.5C509.541 717.5 552.794 695.535 597.541 653.5Z"
+              fill="url(#paint1_linear_296_2)"
+            />
+            <path
+              d="M701.041 743.5C701.041 743.5 672.274 769.218 659.154 782.994C616.059 828.24 580.489 880.51 551.909 937.035C522.434 995.327 500.08 1057.46 482.665 1120.84C464.533 1186.82 451.895 1254.5 443.07 1322.53C434.21 1390.82 429.212 1459.66 427.214 1528.53C425.379 1591.9 457.173 1637.69 457.173 1637.69L230.501 1639.85L0.0419431 1640.16C0.0419431 1640.16 28.5567 1631.58 43.4512 1572.68C59.6081 1508.78 77.91 1445.47 98.6389 1383.06C120.183 1318.19 144.324 1254.21 171.686 1191.82C198.741 1130.13 228.835 1069.82 262.936 1012.12C296.365 955.549 333.528 901.311 375.289 851.228C416.165 802.21 461.538 757.239 511.781 719.003L701.041 743.5ZM270.095 1562.61C272.343 1545.32 276.882 1523.86 276.882 1523.86L216.295 1523.79C215.112 1530.66 213.929 1537.53 212.748 1544.4C202.787 1602.32 208.22 1581.53 201.079 1639.89L261.041 1639.69C264.679 1587.45 263.756 1614.57 270.095 1562.61C272.343 1545.32 267.981 1579.93 270.095 1562.61ZM328.041 1260.02C329.376 1255.14 334.288 1241.58 334.288 1241.58L285.917 1237.74C282.333 1248.96 278.853 1260.21 275.45 1271.49C259.393 1324.72 246.127 1378.78 234.092 1433.15L289.576 1433.34C294.623 1405.24 300.183 1377.27 306.227 1349.39C312.725 1319.45 319.708 1289.46 328.041 1260.02C329.378 1255.13 326.662 1264.89 328.041 1260.02ZM430.121 987.997C430.747 986.809 437.609 972.363 437.609 972.363L401.224 968.221C393.281 981.999 385.803 996.091 378.513 1010.26C363.336 1039.78 349.238 1069.93 336.351 1100.63C328.635 1119.02 321.331 1137.57 313.244 1155.8L359.826 1155.67C359.863 1155.56 359.901 1155.45 359.938 1155.34C369.729 1127 380.273 1099.01 391.679 1071.34C403.327 1043.08 415.894 1014.93 430.121 987.997C430.745 986.809 429.494 989.182 430.121 987.997ZM595.668 762.774C596.62 761.858 604.541 751.96 604.541 751.96H572.833C569.344 754.653 576.164 749.06 572.833 751.96C568.42 755.804 563.95 759.598 559.69 763.633C550.858 771.999 542.085 780.38 533.556 789.09C512.046 811.055 491.781 834.488 473.048 859.119C462.884 872.482 453.095 886.164 443.243 899.782L462.185 899.754L481.128 899.726C481.463 899.233 481.794 898.739 482.129 898.246C498.41 874.153 515.154 850.411 533.793 828.257C544.235 815.846 554.827 803.592 566.07 791.974C575.731 781.988 585.646 772.36 595.668 762.774C596.62 761.861 594.715 763.687 595.668 762.774Z"
+              fill="url(#paint2_linear_296_2)"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_296_2"
+                x1="669.5"
+                y1="95"
+                x2="669.5"
+                y2="383"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#007CB6" />
+                <stop offset="0.5" stop-color="#6BEDFB" />
+                <stop offset="1" stop-color="#003965" />
+              </linearGradient>
+              <linearGradient
+                id="paint1_linear_296_2"
+                x1="413.508"
+                y1="193"
+                x2="413.508"
+                y2="1885"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0.0568581" stop-color="#4DCEE8" />
+                <stop offset="0.340736" stop-color="#A6E7F4" />
+                <stop offset="0.570636" stop-color="#D3F3F9" />
+                <stop offset="0.664954" stop-color="#E9F9FC" />
+                <stop offset="0.756323" stop-color="#F4FCFE" />
+                <stop offset="0.8418" stop-color="#F9FDFE" />
+                <stop offset="0.912538" stop-color="white" />
+              </linearGradient>
+              <linearGradient
+                id="paint2_linear_296_2"
+                x1="413.508"
+                y1="193"
+                x2="413.508"
+                y2="1885"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0.0568581" stop-color="#4DCEE8" />
+                <stop offset="0.340736" stop-color="#A6E7F4" />
+                <stop offset="0.570636" stop-color="#D3F3F9" />
+                <stop offset="0.664954" stop-color="#E9F9FC" />
+                <stop offset="0.756323" stop-color="#F4FCFE" />
+                <stop offset="0.8418" stop-color="#F9FDFE" />
+                <stop offset="0.912538" stop-color="white" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <br />
+
+        <div
+          class="relative left-[10%] max-w-[180px] text-[10px] sm:text-[12px] md:text-[14px] text-white"
+          style="font-family: 'neos';"
+        >
+          <div class="flex flex-col items-center">
+            <div class="w-3 h-3 rounded-full bg-[#9DE7F7]"></div>
+            <div class="w-[2px] h-6 bg-[#9DE7F7]"></div>
+            <p class="mt-1 text-right sm:text-left leading-tight">
+              By year 2, we aim to: <br />
+              &gt; Switch to 100% renewable energy for internal processes. <br />
+              &gt; Eliminate all single-use plastics from operations. <br />
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="relative top-[38%] left-[55%] max-w-[220px] text-[10px] sm:text-[12px] md:text-[14px] text-white"
+          style="font-family: 'neos';"
+        >
+          <div class="flex flex-col items-center">
+            <div class="w-3 h-3 rounded-full bg-[#9DE7F7]"></div>
+            <div class="w-[2px] h-6 bg-[#9DE7F7]"></div>
+            <p class="mt-1 leading-tight">
+              By year 5, we aim to: <br />
+              &gt; Launch fully circular product lines (No waste just reuse) <br />
+              &gt; Implement zero-waste protocols at all manufacturing and
+              distribution sites. <br />
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="relative bottom-[10%] right-[5%] max-w-[180px] text-[10px] sm:text-[12px] md:text-[14px] text-white"
+          style="font-family: 'neos';"
+        >
+          <div class="flex flex-col items-center">
+            <div class="w-3 h-3 rounded-full bg-[#9DE7F7]"></div>
+            <div class="w-[2px] h-6 bg-[#9DE7F7]"></div>
+            <p class="mt-1 text-center sm:text-left leading-tight">
+              By year 10, we aim to: <br />
+              &gt; Achieve 100% material traceability and accountability. <br />
+              &gt; Lead national efforts in low-impact innovation research. <br />
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="relative left-[50%] max-w-[200px] text-[10px] sm:text-[12px] md:text-[14px] text-white"
+          style="font-family: 'neos';"
+        >
+          <div class="flex flex-col items-center">
+            <div class="w-3 h-3 rounded-full bg-[#9DE7F7]"></div>
+            <div class="w-[2px] h-6 bg-[#9DE7F7]"></div>
+            <p class="mt-1 leading-tight">
+              By year 15, we aim to: <br />
+              &gt; Be recognised as the worlds first fully regenerative design
+              company. <br />
+              &gt; Achieve global certification in next gen biomaterial
+              leadership. <br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <br /><br /><br />
+    <footer
+      style="font-family: 'neos';"
+      class="max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-24 pb-12 text-[10px] text-gray-400"
+    >
+      <div
+        class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-8 sm:gap-0"
+      >
+        <div class="flex flex-col text-[11px] max-w-xs mr-20">
+          <p>Need help? Contact us.</p>
+          <a
+            class="text-gray-400 hover:text-white break-words"
+            href="mailto:helloiamunderthewater@hydra.com"
+            >helloiamunderthewater@hydra.com</a
+          >
+        </div>
+        <div
+          class="grid grid-cols-3 gap-2 text-gray-400 text-[10px] justify-center"
+        >
+          <a href="#" class="hover:text-white">Customer help</a>
+          <a href="about.html" class="hover:text-white">About Hydra</a>
+          <a href="resources.html" class="hover:text-white">Resources</a>
+          <a href="#" class="hover:text-white">Shipping info</a>
+          <a href="#" class="hover:text-white">Synaptium</a>
+          <a href="shop.html" class="hover:text-white">Shop</a>
+          <a href="#" class="hover:text-white">Track your order</a>
+          <a href="#" class="hover:text-white">Research</a>
+          <a href="roadmap.html" class="hover:text-white">Roadmap</a>
+        </div>
+        <div class="flex items-center space-x-6">
+          <form class="flex flex-col text-[10px]">
+            <label class="mb-1" for="email">Subscribe to our newsletter.</label>
+            <input
+              class="bg-transparent border-b border-gray-600 text-white placeholder-gray-600 focus:outline-none focus:border-[#2ea1d6] py-1 w-48"
+              id="email"
+              placeholder="Email"
+              type="email"
+            />
+          </form>
+          <img
+            class="w-16 h-16"
+            height="64"
+            src="white-logo.png"
+            width="64"
+            alt="White Hydra logo"
+          />
+        </div>
+      </div>
+      <div
+        class="border-t border-gray-700 mt-8 pt-4 max-w-7xl text-[8px] text-gray-600 flex flex-wrap gap-2"
+      >
+        <p>Privacy Policy</p>
+        <p>|</p>
+        <p>Terms of Use</p>
+        <p>|</p>
+        <p>Sales Policy</p>
+        <p>|</p>
+        <p>Legal</p>
+      </div>
+      <p class="mt-2 text-[8px] text-gray-600">
+        Copyright &copy; 2025 Hydra Ltd. · All rights reserved.
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const menuClose = null; 
+    const glassMenu = document.getElementById("menu-list");
+    const menuItems = glassMenu.querySelectorAll("a");
+
+    function openMenu() {
+      glassMenu.classList.add("open");
+      glassMenu.setAttribute("aria-hidden", "false");
+      menuToggle.setAttribute("aria-expanded", "true");
+      glassMenu.focus();
+   
+      menuItems.forEach((item, index) => {
+        item.style.animation = `dropdownReveal 0.3s ease forwards`;
+        item.style.animationDelay = `${index * 0.1 + 0.1}s`;
+      });
+    }
+
+    function closeMenu() {
+      glassMenu.classList.remove("open");
+      glassMenu.setAttribute("aria-hidden", "true");
+      menuToggle.setAttribute("aria-expanded", "false");
+
+      menuItems.forEach((item) => {
+        item.style.animation = "";
+        item.style.opacity = "0";
+        item.style.transform = "translateY(-10px)";
+      });
+      menuToggle.focus();
+    }
+
+    menuToggle.addEventListener("click", () => {
+      if (glassMenu.classList.contains("open")) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+
+
+    document.addEventListener("click", (e) => {
+      if (!glassMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+        if (glassMenu.classList.contains("open")) {
+          closeMenu();
+        }
+      }
+    });
+
+  
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && glassMenu.classList.contains("open")) {
+        closeMenu();
+      }
+    });
+
+    menuItems.forEach((item) => {
+      item.style.opacity = "0";
+      item.style.transform = "translateY(-10px)";
+    });
+  </script>
+</body>
+</html>

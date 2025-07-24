@@ -1,0 +1,75 @@
+    @font-face {
+  font-family: 'klunk';
+  src: url("klunk.otf")
+}
+
+@font-face {
+  font-family: 'neos';
+  src: url("regular.woff");
+}
+@font-face {
+  font-family: 'neosBold';
+  src: url("bold.woff");
+}
+   body {
+      font-family: 'neosBold';
+      margin: 0px;
+    }
+    #hydra{
+        font-family: 'klunk';
+    }
+
+
+    /*menu*/
+    #menu-list {
+      position: absolute;
+      top: 100%;
+      right: 1.5rem;
+      background: rgba(0, 26, 42, 0.4);
+      border-right: 1px solid rgba(10, 74, 122, 0.7);
+      border-radius: 0.75rem;
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.4s ease;
+      backdrop-filter: saturate(180%) blur(10px);
+      -webkit-backdrop-filter: saturate(180%) blur(10px);
+      width: 320px;
+      z-index: 50;
+    }
+    #menu-list.open {
+      max-height: 1000px; 
+    }
+    #menu-list a {
+      opacity: 0;
+      transform: translateY(-10px);
+      display: block;
+      padding: 1rem 1.5rem;
+      font-size: 1.125rem; 
+      font-weight: 500; 
+      color: white;
+      user-select: none;
+      border-bottom: 1px solid rgba(10, 74, 122, 0.7);
+      transition: color 0.3s ease;
+    }
+    #menu-list a:last-child {
+      border-bottom: none;
+      border-radius: 0 0 0.75rem 0.75rem;
+    }
+    #menu-list a:hover {
+      color: #1a9de0;
+    }
+    #menu-list.open a {
+      animation-fill-mode: forwards;
+    }
+  
+    @keyframes dropdownReveal {
+      0% {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
